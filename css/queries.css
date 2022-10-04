@@ -1,0 +1,10 @@
+@media (max-width: 864px) {
+  .main-caixa .caixa {
+    max-width: 150px;
+    top: 0;
+  }
+  .main-caixa .insta {
+    visibility: hidden;
+    position: absolute;
+  }
+}
