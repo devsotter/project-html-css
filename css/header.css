@@ -1,11 +1,11 @@
 header {
+  opacity: 95%;
   z-index: 15;
   background-color: white;
   position: fixed;
   width: 100%;
   top: 0;
-  font-weight: bold;
-  border-bottom: 1px solid #2c2c2c;
+  border-bottom: 1px solid #5c5c5c;
   display: flex;
   padding: 5px;
 }
@@ -25,12 +25,6 @@ header {
   text-transform: uppercase;
   padding: 5px;
 }
-.nav-menu a:hover {
-  text-decoration-line: underline;
-  text-decoration-color: yellow;
-  text-decoration-thickness: 2px;
-  text-underline-offset: 8px;
-}
 
 .nav-menu {
   display: flex;
@@ -49,7 +43,7 @@ header {
   height: 3px;
   border-radius: 2px;
   margin: 5px auto;
-  background-color: #444444;
+  border-bottom: 1px solid #5c5c5c;
   transition: all 0.3s ease-in-out;
 }
 
@@ -58,6 +52,7 @@ header {
     border-bottom: 0;
     background-color: transparent;
   }
+
   .hamburguer {
     display: block;
   }
@@ -93,7 +88,8 @@ header {
   }
 
   .nav-menu a {
-    color: #444444;
+    opacity: 100%;
+    border-bottom: 1px solid #5c5c5c;
     font-size: 5rem;
     border-bottom: 5px solid yellow;
   }

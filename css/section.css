@@ -1,0 +1,43 @@
+.sobre-caixa {
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.sobre-info p {
+  text-indent: 20px;
+  margin: 10px;
+  padding: 10px;
+  font-size: 2rem;
+}
+.sobre-info {
+  flex: 2 500px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.img-sobre {
+  border: 1px solid #5c5c5c;
+  position: relative;
+  width: 400px;
+  margin: 10px;
+}
+.section-centro h3 {
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1rem;
+  color: #5c5c5c;
+  display: inline-block;
+  padding: 10px;
+  margin: 10px;
+  font-size: 2rem;
+}
+
+.section-centro {
+  height: 100vh;
+  margin: 0 auto;
+  max-width: 1200px;
+}

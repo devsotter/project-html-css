@@ -25,19 +25,11 @@ a {
 }
 
 body {
+  margin-top: 55px;
   color: #444444;
   font-size: 1.6rem;
   scroll-behavior: smooth;
   transition: 0.2s linear;
-}
-
-h3,
-h4,
-h5,
-h6 {
-  display: inline-block;
-  margin: 10px;
-  font-weight: 300;
 }
 
 ul {
@@ -63,6 +55,5 @@ img {
   background-color: white;
   border: 1px solid #2c2c2c;
   width: 2px;
-  border-radius: 6px;
   z-index: 10;
 }
