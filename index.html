@@ -5,19 +5,20 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/svg" href="img/favicon.svg" />
   <link rel="stylesheet" href="css/style.css" />
-
-  <title>Catarina Pedreira</title>
+  <title>Catarina Fraga</title>
 </head>
 
 <body>
   <header>
     <nav class="navbar">
       <ul class="nav-menu">
-        <li class="nav-item"><a href="#sobre" class="nav-link">sobre</a></li>
-
         <li class="nav-item">
-          <a href="#projetos" class="nav-link">arte</a>
+          <a href="#sobre" class="nav-link">sobre</a>
+        </li>
+        <li class="nav-item">
+          <a href="#arte" class="nav-link">arte</a>
         </li>
         <li class="nav-item">
           <a href="#contato" class="nav-link">contato</a>
@@ -30,42 +31,97 @@
       </div>
     </nav>
   </header>
-
-  <main class="main-centro">
-    <div class="sobre-main">
-      <p>Catarina Fraga</p>
-    </div>
+  <main class="centro">
+    <h1>Sobre mim</h1>
+    <div class="sobre-main"></div>
     <div class="main-caixa">
       <div class="caixa">
-        <h1>Olá! eu sou Cat.</h1>
-        <p>Artista Visual</p>
+        <h2 class="cat">Olá! eu sou Cat.</h2>
+        <h2 class="desc">Artista Visual</h2>
       </div>
-
+      <a class="drop" href="#sobre"><img src="img/prisma.svg" alt="prisma" /></a>
     </div>
-
-    <div class="insta">
-      <a href="https://www.instagram.com/catrockstarr/">instagram</a>
-
-
-
+    <div class="rede">
+      <a href="https://www.instagram.com/catrockstarr/">
+        <div class="social-insta">instagram</div>
+      </a>
+    </div>
   </main>
-  <section class="section-centro">
-    <h3>Sobre mim</h3>
+  <section class="centro" id="sobre">
+    <h3>Catarina Fraga</h3>
     <div class="sobre-caixa">
       <div class="img-sobre">
-        <img src="img/perfil.jpeg" alt="catarina fraga">
+        <img src="img/perfil.jpg" alt="catarina fraga" />
       </div>
       <div class="sobre-info">
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus
-          qui dolor sit quae maiores quam, impedit officia quibusdam ex ducimus
-          eos repellat totam perferendis vel quos. Voluptates blanditiis dolor
-          quae? Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-        </p>
+        <q>Olá, me chamo Catarina Pedreira Fraga , tenho 22 anos e sou baiana
+          de Salvador. Cursei por 3 anos licenciatura em desenho e plástica na
+          UFBA e atualmente estou cursando design na UNIJORGE. Gosto muito da
+          área das artes, ler mangás e jogar joguinhos.</q>
       </div>
     </div>
+  </section>
+  <section class="centro">
+    <h4 class="port">portfólio</h4>
+    <div class="slide-caixa">
+      <h5>Ultimos desenhos.</h5>
+      <a class="drop" href="#arte"><img src="img/prisma.svg" alt="icone de olho" /></a>
+      <div data-slide="slide" class="slide">
+        <div class="slide-items">
+          <img src="img/arte-1.webp" alt="Img 1" />
+          <img src="img/arte-2.webp" alt="Img 2" />
+          <img src="img/arte-3.webp" alt="Img 4" />
+        </div>
+        <nav class="slide-nav">
+          <div class="slide-thumb"></div>
+          <button class="slide-prev">Anterior</button>
+          <button class="slide-next">Próximo</button>
+        </nav>
+      </div>
+    </div>
+    <div class="rede">
+      <a
+        href="https://www.tiktok.com/@catrockstarr?referer_url=127.0.0.1%3A5500%2F%23sobre&amp;refer=creator_embed&amp;embed_source=null_null_null">
+        <div class="social">tiktok</div>
+      </a>
+    </div>
+  </section>
+  <section class="centro" id="arte">
+    <h1>Arte digital</h1>
+    <div class="galeria">
+      <img src="img/arte-4.webp" alt="arte-1" />
+      <img src="img/arte-5.webp" alt="arte-2" />
+      <img src="img/arte-6.webp" alt="arte-3" />
+      <img src="img/arte-7.webp" alt="arte-6" />
+      <img src="img/arte-8.webp" alt="arte-7" />
+      <img src="img/arte-9.webp" alt="arte-8" />
+      <img src="img/arte-10.webp" alt="arte-9" />
+      <img src="img/arte-11.webp" alt="arte-10" />
+      <img src="img/arte-12.webp" alt="arte-13" />
+    </div>
+  </section>
+  <section class="centro" id="contato">
+    <h3>Contato</h3>
+    <div class="contato-caixa">
+      <h2 class="email">catarina pcfraga @gmail.com</h2>
+      <a class="drop" href="#"><img src="img/prisma-top.svg" alt="prisma" /></a>
+    </div>
+  </section>
+  <footer class="footer-bg">
+    <div class="footer">
+      <p> Design e código por <a href="https://devsotter.github.io/portfolio-nicholas/" target="_blank">Nicholas
+          Sotter.</a>
+        <br>Todos os direitos reservados-2022.
+      </p>
+      <nav class="icones-footer">
+        <a href="" target="_blank"><img src="" alt=""></a>
+        <a href="" target="_blank"><img src="" alt=""></a>
+        <a href="ter" target="_blank"><img src="" alt=""></a>
+        <a class="" href="#"><img class="" src="" alt=""></a>
+      </nav>
+  </footer>
+  <script src="js/script.js"></script>
 
-    <script src=js/script.js></script>
 
 </body>
 

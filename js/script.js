@@ -7,6 +7,7 @@ hamburguer.addEventListener("click", () => {
   hamburguer.classList.toggle("active");
   navMenu.classList.toggle("active");
 });
+
 class SlideStories {
   constructor(id) {
     this.slide = document.querySelector(`[data-slide="${id}"]`);

@@ -1,10 +1,12 @@
 @media (max-width: 750px) {
   .main-caixa .caixa {
     max-width: 100px;
-    top: 30px;
-    left: -47px;
+    top: 22px;
   }
   html {
     font-size: 50%;
+  }
+  .contato-caixa .email {
+    max-width: 200px;
   }
 }
