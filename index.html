@@ -5,8 +5,9 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="icon" type="image/svg" href="img/favicon.svg" />
+  <link rel="icon" type="image/svg" href="img/icone.png" />
   <link rel="stylesheet" href="css/style.css" />
+  <script src="https://unpkg.com/scrollreveal"></script>
   <title>Catarina Fraga</title>
 </head>
 
@@ -14,6 +15,9 @@
   <header>
     <nav class="navbar">
       <ul class="nav-menu">
+        <li class="nav-item">
+          <a href="#inicio" class="nav-link">início</a>
+        </li>
         <li class="nav-item">
           <a href="#sobre" class="nav-link">sobre</a>
         </li>
@@ -31,9 +35,8 @@
       </div>
     </nav>
   </header>
-  <main class="centro">
+  <main class="centro area-1" id="inicio">
     <h1>Sobre mim</h1>
-    <div class="sobre-main"></div>
     <div class="main-caixa">
       <div class="caixa">
         <h2 class="cat">Olá! eu sou Cat.</h2>
@@ -42,12 +45,12 @@
       <a class="drop" href="#sobre"><img src="img/prisma.svg" alt="prisma" /></a>
     </div>
     <div class="rede">
-      <a href="https://www.instagram.com/catrockstarr/">
+      <a href="https://www.instagram.com/catrockstarr/" target="_blank">
         <div class="social-insta">instagram</div>
       </a>
     </div>
   </main>
-  <section class="centro" id="sobre">
+  <section class="centro area-2 id=" sobre">
     <h3>Catarina Fraga</h3>
     <div class="sobre-caixa">
       <div class="img-sobre">
@@ -61,11 +64,11 @@
       </div>
     </div>
   </section>
-  <section class="centro">
+  <section class="centro area-3" id="arte">
     <h4 class="port">portfólio</h4>
     <div class="slide-caixa">
       <h5>Ultimos desenhos.</h5>
-      <a class="drop" href="#arte"><img src="img/prisma.svg" alt="icone de olho" /></a>
+      <a class="drop" href="#digital"><img src="img/prisma.svg" alt="icone de olho" /></a>
       <div data-slide="slide" class="slide">
         <div class="slide-items">
           <img src="img/arte-1.webp" alt="Img 1" />
@@ -80,13 +83,13 @@
       </div>
     </div>
     <div class="rede">
-      <a
-        href="https://www.tiktok.com/@catrockstarr?referer_url=127.0.0.1%3A5500%2F%23sobre&amp;refer=creator_embed&amp;embed_source=null_null_null">
+      <a href="https://www.tiktok.com/@catrockstarr?referer_url=127.0.0.1%3A5500%2F%23sobre&amp;refer=creator_embed&amp;embed_source=null_null_null"
+        target="_blank">
         <div class="social">tiktok</div>
       </a>
     </div>
   </section>
-  <section class="centro" id="arte">
+  <section class="centro area-4" id="digital">
     <h1>Arte digital</h1>
     <div class="galeria">
       <img src="img/arte-4.webp" alt="arte-1" />
@@ -100,28 +103,40 @@
       <img src="img/arte-12.webp" alt="arte-13" />
     </div>
   </section>
-  <section class="centro" id="contato">
-    <h3>Contato</h3>
-    <div class="contato-caixa">
-      <h2 class="email">catarina pcfraga @gmail.com</h2>
-      <a class="drop" href="#"><img src="img/prisma-top.svg" alt="prisma" /></a>
+  <section class="centro area-5" id="contato">
+    <h1>Contato</h1>
+    <div class="main-caixa">
+      <div class="caixa">
+        <h2 class="cat">Me mande um email.</h2>
+        <h2>E me siga nas redes.</h2>
+      </div>
+      <a class="drop" href="#">
+        <img src="img/prisma-top.svg" alt="prisma" />
+      </a>
     </div>
+    <a href="mailto:webmaster@example.com">
+      <div class="rede">
+
+        <div class="social-insta">clique aqui!</div>
+      </div>
+    </a>
   </section>
+
   <footer class="footer-bg">
     <div class="footer">
-      <p> Design e código por <a href="https://devsotter.github.io/portfolio-nicholas/" target="_blank">Nicholas
+      <p> Design e código por <a class="nic" href="https://devsotter.github.io/portfolio-nicholas/" target="_blank">
+          Nicholas
           Sotter.</a>
         <br>Todos os direitos reservados-2022.
       </p>
       <nav class="icones-footer">
-        <a href="" target="_blank"><img src="" alt=""></a>
-        <a href="" target="_blank"><img src="" alt=""></a>
-        <a href="ter" target="_blank"><img src="" alt=""></a>
-        <a class="" href="#"><img class="" src="" alt=""></a>
+        <a href="https://www.instagram.com/catrockstarr/" target="_blank"><img src="img/instagram.svg" alt=""></a>
+        <a href="https://www.tiktok.com/@catrockstarr?referer_url=127.0.0.1%3A5500%2F%23sobre&amp;refer=creator_embed&amp;embed_source=null_null_null"
+          target="_blank"><img src="img/tiktok.svg" alt=""></a>
+        <a href="https://twitter.com/CatRockstarr" target="_blank"><img src="img/twitter.svg" alt=""></a>
       </nav>
   </footer>
-  <script src="js/script.js"></script>
-
+  <script src="script.js"></script>
 
 </body>
 

@@ -42,7 +42,6 @@ header {
   display: block;
   width: 28px;
   height: 3px;
-  border-radius: 2px;
   margin: 5px auto;
   background-color: #ffff00;
   transition: all 0.3s ease-in-out;

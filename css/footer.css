@@ -23,7 +23,15 @@
   margin: 10px 0;
 }
 .footer a {
+  font-weight: bold;
   color: #fc20d7;
+  transition: 0.2s;
+}
+.icones-footer a:hover {
+  box-shadow: 3px 3px 5px #2c2c2c;
+}
+.footer .nic:hover {
+  background-color: #ffff00;
 }
 .icones-footer {
   margin: 10px 0;
@@ -36,6 +44,7 @@
 }
 
 .icones-footer a {
+  border: 1px solid #5c5c5c;
   background-color: #fc20d7;
   border-radius: 50%;
   width: 50px;

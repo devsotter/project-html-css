@@ -3,10 +3,8 @@
     max-width: 100px;
     top: 22px;
   }
+
   html {
     font-size: 50%;
-  }
-  .contato-caixa .email {
-    max-width: 200px;
   }
 }

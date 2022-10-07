@@ -49,6 +49,7 @@ q:after {
 }
 
 .slide-caixa {
+  border-radius: 50px;
   margin: 50px auto;
   position: relative;
   padding: 10px;
@@ -72,6 +73,7 @@ q:after {
   font-size: clamp(5rem, 2.5vw, 4rem);
   position: relative;
   left: -48px;
+  top: 20px;
 }
 .slide-caixa .olho {
   margin: 20px;
@@ -93,8 +95,7 @@ q:after {
 }
 
 .slide-caixa h5::before {
-  bottom: -5px;
-  bottom: 5px;
+  bottom: 0px;
   position: absolute;
   content: "";
   width: 100px;
@@ -176,21 +177,4 @@ q:after {
   to {
     transform: initial;
   }
-}
-
-.contato-caixa {
-  position: relative;
-  padding: 10px;
-  margin: 0px auto;
-  width: 70%;
-  border: 1px solid #5c5c5c;
-  height: 300px;
-}
-.contato-caixa .email {
-  background-color: white;
-  font-size: clamp(4rem, 10vw, 2rem);
-  position: relative;
-  left: -50px;
-  top: 100px;
-  margin: 20px;
 }

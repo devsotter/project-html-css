@@ -107,6 +107,7 @@ img {
   color: white;
   background-color: #fc20d7;
   border: 1px solid #5c5c5c;
+  border-radius: 20px;
   display: inline-block;
   font-weight: bold;
   top: -50px;
@@ -126,6 +127,7 @@ img {
   color: white;
   background-color: #fc20d7;
   border: 1px solid #5c5c5c;
+  border-radius: 20px;
   display: inline-block;
   font-weight: bold;
   top: -100px;
