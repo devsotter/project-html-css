@@ -4,11 +4,14 @@
   align-items: center;
   display: flex;
   flex-wrap: wrap;
+  gap: 20px;
 }
-
-.galeria img {
-  margin: 20px;
+.galeria > span {
+  border: 1px solid #5c5c5c;
   padding: 5px;
+  background-color: #ffff00;
+}
+.galeria img {
   border: 1px solid #5c5c5c;
   background-color: #ffff00;
   object-fit: cover;
