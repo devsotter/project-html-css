@@ -20,7 +20,7 @@
 
 .footer p {
   font-size: 2rem;
-  margin: 10px 0;
+  margin: 10px;
 }
 .footer a {
   font-weight: bold;
@@ -34,7 +34,7 @@
   background-color: #ffff00;
 }
 .icones-footer {
-  margin: 10px 0;
+  margin: 10px;
   gap: 20px;
   flex-wrap: wrap;
   display: flex;
