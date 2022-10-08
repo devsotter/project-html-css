@@ -23,8 +23,16 @@ header {
   margin-right: auto;
 }
 .nav-menu a {
+  font-weight: bold;
   text-transform: uppercase;
   padding: 5px;
+  transition: 0.2s;
+}
+.nav-menu a:hover {
+  text-decoration-line: underline;
+  text-decoration-color: #ffff00;
+  text-underline-offset: 4px;
+  text-decoration-thickness: 4px;
 }
 
 .nav-menu {
