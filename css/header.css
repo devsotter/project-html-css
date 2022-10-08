@@ -5,7 +5,7 @@ header {
   background-color: #fc20d7;
   position: fixed;
   width: 100%;
-  height: 30px;
+  height: 35px;
   top: 0;
   border-bottom: 1px solid #5c5c5c;
   display: flex;
@@ -23,16 +23,25 @@ header {
   margin-right: auto;
 }
 .nav-menu a {
+  position: relative;
   font-weight: bold;
   text-transform: uppercase;
   padding: 5px;
-  transition: 0.2s;
 }
-.nav-menu a:hover {
-  text-decoration-line: underline;
-  text-decoration-color: #ffff00;
-  text-underline-offset: 4px;
-  text-decoration-thickness: 4px;
+.nav-menu a::before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 100%;
+  bottom: 2px;
+  height: 4px;
+  left: 0;
+  background-color: #ffff00;
+  border: 1px solid #5c5c5c;
+  visibility: hidden;
+}
+.nav-menu a:hover::before {
+  visibility: visible;
 }
 
 .nav-menu {
@@ -99,14 +108,22 @@ header {
   }
 
   .nav-menu a {
-    border-bottom: 1px solid #5c5c5c;
     font-size: 5rem;
-    border-bottom: 5px solid #ffff00;
     color: #5c5c5c;
   }
-
-  .nav-menu a:hover {
-    text-decoration: none;
+  .nav-menu a::after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100%;
+    bottom: 2px;
+    height: 5px;
+    left: 0;
+    background-color: #ffff00;
+    border: 1px solid #5c5c5c;
+  }
+  .nav-menu a:hover::after {
+    visibility: visible;
   }
 
   .nav-item {
@@ -115,6 +132,5 @@ header {
 
   .nav-menu.active {
     left: 0;
-    overflow: hidden;
   }
 }
