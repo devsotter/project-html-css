@@ -33,8 +33,11 @@ h6 {
   color: #5c5c5c;
   display: inline-block;
   padding: 10px;
-  margin: 20px 20px 50px 20px;
+  margin: 100px auto;
   font-size: 2rem;
+}
+.margin {
+  margin: 50px;
 }
 
 body {
@@ -69,9 +72,10 @@ img {
   z-index: 10;
 }
 .centro {
-  margin: 50px auto;
+  margin: 0 auto;
   max-width: 1200px;
 }
+
 .drop {
   align-items: center;
   justify-content: center;
@@ -129,7 +133,7 @@ img {
   border-radius: 20px;
   display: inline-block;
   font-weight: bold;
-  top: -97px;
+  top: -100px;
   position: relative;
   justify-content: center;
   text-align: center;

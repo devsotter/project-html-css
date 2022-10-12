@@ -1,5 +1,4 @@
 header {
-  filter: blur(10%);
   opacity: 80%;
   z-index: 15;
   background-color: #fc20d7;

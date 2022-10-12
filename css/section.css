@@ -39,7 +39,6 @@ q:after {
   border: 1px solid #5c5c5c;
   padding: 5px 5px 35px 5px;
   background-color: #ffff00;
-  position: relative;
   width: 300px;
   margin: 20px;
 }
@@ -50,7 +49,7 @@ q:after {
 
 .slide-caixa {
   border-radius: 50px;
-  margin: 50px auto;
+  margin: 0 auto;
   position: relative;
   padding: 10px;
   width: 70%;
@@ -63,7 +62,7 @@ q:after {
   content: "";
   position: absolute;
   width: 1px;
-  height: 100px;
+  height: 50px;
   background-color: #5c5c5c;
 }
 .slide-caixa h5 {
@@ -108,7 +107,7 @@ q:after {
   padding: 5px;
   background-color: #ffff00;
   max-width: 300px;
-  margin: 50px auto;
+  margin: 100px auto;
   display: grid;
 }
 
@@ -127,7 +126,6 @@ q:after {
 }
 
 .slide-nav button {
-  -webkit-appearance: none;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   opacity: 0;
 }
