@@ -61,7 +61,7 @@ q:after {
   content: "";
   position: absolute;
   width: 1px;
-  height: 30px;
+  height: 150px;
   background-color: #5c5c5c;
 }
 .slide-caixa h5 {

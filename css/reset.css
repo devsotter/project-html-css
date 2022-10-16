@@ -101,15 +101,13 @@ img {
   border-radius: 20px;
   display: inline-block;
   font-weight: bold;
-  top: -91px;
-  position: relative;
   text-transform: uppercase;
   padding: 10px;
   box-shadow: 3px 3px 3px #2c2c2c;
   transition: 0.2s cubic-bezier(0.34, 1.56, 0.64, 1);
 }
 .main-caixa::before {
-  bottom: 0;
+  bottom: -50px;
   left: 50%;
   z-index: -1;
   content: "";
@@ -131,7 +129,7 @@ img {
   border-radius: 20px;
   display: inline-block;
   font-weight: bold;
-  top: -90px;
+  top: -100px;
   position: relative;
   justify-content: center;
   text-align: center;
