@@ -105,7 +105,7 @@ q:after {
   border: 1px solid #5c5c5c;
   padding: 5px;
   background-color: #ffff00;
-  max-width: 300px;
+  max-width: 500px;
   margin: 100px auto;
   display: grid;
 }
@@ -132,8 +132,8 @@ q:after {
 .slide-items > * {
   border: 1px solid #5c5c5c;
   object-fit: cover;
-  width: 300px;
-  height: 300px;
+  width: 500px;
+  height: 500px;
   position: absolute;
   top: 0px;
   opacity: 0;
@@ -176,3 +176,4 @@ q:after {
     transform: initial;
   }
 }
+
