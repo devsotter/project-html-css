@@ -84,7 +84,7 @@ q:after {
   position: absolute;
   right: -50px;
   top: -50px;
-  box-shadow: 3px 3px 3px #2c2c2c;
+  box-shadow: 2px 3px 1px #2c2c2c;
   transition: 0.2s cubic-bezier(0.34, 1.56, 0.64, 1);
 }
 .slide-caixa .olho:hover {
@@ -115,6 +115,15 @@ q:after {
   grid-area: 1/1;
   overflow: hidden;
 }
+
+.slide-prev {
+background-color: transparent;
+border: none;
+}
+.slide-next {
+  background-color: transparent;
+  border: none;
+  }
 
 .slide-nav {
   grid-area: 1/1;
